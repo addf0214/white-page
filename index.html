@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Wanna see a whiter white?</title>
+    <style>
+        html,
+        body {
+            min-height: 100%;
+            margin: 0;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            font-family: system-ui, sans-serif;
+            background: #FFFFFF;
+        }
+
+        #tester-wrapper {
+            padding: 1rem 2rem;
+        }
+
+        #tester {
+            margin: 0;
+            font-weight: 900;
+            font-size: 10rem;
+            color: #FFFFFF;
+            -webkit-user-select: none;
+            user-select: none;
+        }
+
+        #tester {
+            filter: brightness(10);
+            -webkit-backdrop-filter: brightness(1);
+            backdrop-filter: brightness(10);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="tester-wrapper">
+        <p id="tester">White.</p>
+    </div>
+
+</body>
+
+</html>
